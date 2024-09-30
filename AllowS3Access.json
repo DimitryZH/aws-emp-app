@@ -8,10 +8,7 @@
         "AWS": "arn:aws:iam::<AWS Account ID>:role/EmployeeWebApp"
       },
       "Action": "s3:*",
-      "Resource": [
-        "arn:aws:s3:::bucket-employee-photo-sr-444",
-        "arn:aws:s3:::bucket-employee-photo-sr-444/*"
-      ]
+      "Resource": ["arn:aws:s3:::<bucket-name>", "arn:aws:s3:::<bucket-name>/*"]
     }
   ]
 }
