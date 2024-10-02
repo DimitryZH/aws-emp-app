@@ -44,9 +44,13 @@ The application is built using a multi-tier architecture:
 
 ![add-employee-resized](https://github.com/user-attachments/assets/b16beb77-cd2d-495c-afbd-d73a30091ec3)
 
-
 **Use the web interface to manage employee records.**
-  
+
 ![emp-app-loadbalancer-resized](https://github.com/user-attachments/assets/9bcb02ef-c711-41c7-a3d1-438b0789e924)
 
+**Use the /info tab in the web address bar to get information about instances and to use the stress CPU feature. Click "stress cpu 10 min" to trigger the thresholds and enable scaling up the app from 2 to 4 EC2 instances in each AZ.**
 ![info_resized](https://github.com/user-attachments/assets/4d0176af-60bd-4871-bdfb-b8e22567ffb4)
+
+## Conclusion
+
+The AWS Employee Directory App demonstrates the power and flexibility of AWS services in building scalable and secure applications. By leveraging services like Amazon EC2, Amazon S3, Amazon DynamoDB, and AWS IAM, the app provides a robust solution for managing employee data. Follow the setup instructions to deploy the app and explore its features to understand how AWS can be utilized for similar projects.
