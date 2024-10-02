@@ -21,6 +21,8 @@ The application is built using a multi-tier architecture:
 3. **Database**: Amazon DynamoDB for storing employee data.
 4. **File Storage**: Amazon S3 for storing files such as employee photos.
 
+![emp-app-diagram-resized](https://github.com/user-attachments/assets/4311e492-9580-4e5f-864b-17c1b7abdec9)
+
 ## Prerequisites
 
 - AWS Account
@@ -38,5 +40,13 @@ The application is built using a multi-tier architecture:
 
 ## Usage
 
-- Access the web interface via the provided URL of the Load Balancer.
-- Use the web interface to manage employee records.
+**Access the web interface via the provided URL of the Load Balancer.**
+
+![add-employee-resized](https://github.com/user-attachments/assets/b16beb77-cd2d-495c-afbd-d73a30091ec3)
+
+
+**Use the web interface to manage employee records.**
+  
+![emp-app-loadbalancer-resized](https://github.com/user-attachments/assets/9bcb02ef-c711-41c7-a3d1-438b0789e924)
+
+![info_resized](https://github.com/user-attachments/assets/4d0176af-60bd-4871-bdfb-b8e22567ffb4)
